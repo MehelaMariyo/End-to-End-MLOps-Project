@@ -9,18 +9,18 @@
 
 '''bash
 
-conda create -n visa python=3.8 -y
+    conda create -n visa python=3.8 -y
 
 '''
 
 '''bash
 
-conda activate visa
+    conda activate visa
 
 '''
 '''bash
 
-conda install -r requirements.txt
+    conda install -r requirements.txt
 
 '''
 
