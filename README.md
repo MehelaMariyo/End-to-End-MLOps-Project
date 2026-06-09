@@ -7,16 +7,22 @@
 
 ## How to run?
 
-    '''bash
-    conda create -n visa python=3.8 -y
-    '''
+'''bash
 
-    '''bash
-    conda activate visa
-    '''
-    '''bash
-    conda install -r requirements.txt
-    '''
+conda create -n visa python=3.8 -y
+
+'''
+
+'''bash
+
+conda activate visa
+
+'''
+'''bash
+
+conda install -r requirements.txt
+
+'''
 
 ## workflow:
 
@@ -28,7 +34,7 @@
 
 ### Export the environment variable
 
-    '''bash
+'''bash
 
     export MONGODB_URL=""
 
@@ -36,7 +42,7 @@
 
     export AWS_SECRET_ACCESS_KEY=""
     
-    '''    
+'''    
 
 ## AWS-CICD-Deployment-with-Github-Action
 
@@ -84,10 +90,10 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 
 ## 7. Setup github secrets:
 
-### -AWS_ACCESS_KEY_ID
-### -AWS_SECRET_ACCESS_KEY
-### -AWS_DEFAULT_REGION
-### -ECR_REPO
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_DEFAULT_REGION
+- ECR_REPO
 
 
 
