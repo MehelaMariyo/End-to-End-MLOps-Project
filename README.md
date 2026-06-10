@@ -63,6 +63,7 @@
 
 1. AmazonEC2ContainerRegistryFullAccess
 2. AmazonEC2FullAccess
+3. AmazonS3FullAccess
 
 ## 3. Create ECR repo to store/save docker image
 
